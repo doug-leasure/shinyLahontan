@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Help</title>
+</head>
+
+<body>
+
+<div style="font-size:120%">
+
+<h2>Overview</h2>
+
+This application presents direct outputs from the multi-population viability analysis (MPVA) for Lahontan Cutthroat Trout (see <b>About Tab</b>).  The MPVA model is fit to data (30 years of Lahontan Cutthroat Trout field surveys) in an exterior platform (JAGS).  The fitted MPVA model is pulled into the Lahontan Cutthroat Trout Population Simulator, which provides a platform to explore and visualize the results and attributes of each population.  It also allows users to manipulate future conditions and evaluate effects on extinction risks based on real-time simulations running within the web portal.  Simulations may be setup to represent management actions (e.g. non-native trout suppression) and/or environmental scenarios (e.g. increased stream temperatures). Estimates of population sizes and extinction risks within the web portal will auto-update as changes are made to simulation settings.
+
+<h3>Basic Steps</h3>
+
+<b>1.</b>  Select a population from the drop-down menu or the map.  Don't change any other settings.<br>
+<b>2.</b>  Look at the <b>Population Tab</b> for extinction risks when future conditions are similar to past conditions.<br>
+<b>3.</b>  Watch the <b>Habitat Tab</b> and/or the <b>Effects Tab</b> as you manipulate future conditions using the sidebar panel.<br>
+<b>4.</b>  Look at the <b>Population Tab</b> to see how the population responded to altered future conditions.<br><br>
+
+<b>Note:</b> Plots are redrawn every time you change a value on the sidebar.  Y-axis values may change drastically and can be easily overlooked.<br><br>
+
+<hr>
+<h2>Sidebar Panel</h2>
+
+The sidebar allows you to choose a population and to manipulate future habitat and management scenarios.
+The default values will simulate future habitats that are similar to historical conditions, so you don't need to change anything to get started.  
+Just select a population and browse the results in each tab (see <b>Tabs</b> section below).<br><br>
+
+When you are ready to simulate altered future conditions, details are provided below for each setting... <br><br>
+
+<hr>
+<h2>Tabs</h2>
+
+<h4>Map Tab</h4>
+
+The map shows all Lahontan cutthroat trout streams that have any historical survey data. 
+Click on any stream to see model results and run new simulations for that population. <br><br>
+
+<h4>Population Tab</h4> 
+
+Forecast demographics and estimate extinction risks for the current population under simulated future conditions. 
+These values and plots change as you modify future conditions with the sidebar panel.
+Population estimates and demographic rates are based on real habitat data and fish surveys at 155 populations over 30 years.<br>
+<b>Carrying capacities</b> are the densities of fish supported based on habitat conditions.  As populations approach carrying capacity, density-dependent mortality increases.<br>
+<b>Growth potential</b> is the percent growth the population would be capable of when population densities were very low (i.e. much less than carrying capacity; no density-dependent mortality). <br><br>
+
+<h4>Habitat Tab</h4>
+
+Measurements of four important stream habitat metrics through time.  
+These values change as you modify future conditions with the sidebar panel.
+Habitat data prior to 2015 are real measurements or model-based predictions for these streams each year.  
+After 2015, habitat data are simulated by resampling from historical years. <br><br>
+
+<h4>Effects Tab</h4> 
+
+The effect of each habitat variable on a population parameter.  
+Effects were estimated by an STPVA model fit to the full Lahontan cutthroat trout dataset.
+The range of values on the x-axes represent the range of values among all Lahontan streams.
+The graphs also show the range of historical conditions for the population ("Past"), and the range of simulated future conditions ("Future"). <br><br>
+
+<h4>Detection Tab</h4>
+
+Estimated detection rates for each electrofishing pass (i.e. probability of capturing a fish that is present) based on the catchment area of sampled sites.  For populations with sites that were sampled between 1985 and 2015, detection rates are reported for the sites with the largest and smallest drainage areas to illustrate the range of detection rates at historically sampled sites.  For sites with no survey data, detection rates are reported based on what would be expected at an "average" Lahontan Cutthroat Trout sample site.<br><br>
+
+<h4>Data Tab</h4>
+
+The raw data that drives this model.  These numbers are the result of electrofishing surveys at thousands of sites over a 30 year period.<br><br>
+
+<h4>Batch Tab</h4>
+Batch processing allows you to run simulations for <i>all populations</i> in the batch processing list based on current simulation settings.  
+The result is a table of extinction risks and confidence intervals for each population.
+Results can be copied and pasted directly into Microsoft Excel.  
+This may require significant processing time if many populations are selected at once.<br><br>
+
+<hr>
+
+<h3>Basic Options</h3>
+
+<h4>Population:</h4>
+Select a population for your simulations from the dropdown list.<br><br>
+
+<h4>Forecast Year:</h4>
+Use the slider bar to select the year that your simulations will end.  Use a consistent forecast year when comparing extinction risks among populations.  Extinction risks will always increase as you increase forecast year.<br><br>
+
+<h3>Future Conditions</h3>
+
+<h4>Change in Population Extent:</h4>
+Population extent is the number of stream kilometers available to a population.  
+Adding or removing stream kilometers could represent changes due to additions/removals of barriers, habitat improvements that make new stream reaches available, or stream dessication that make fewer stream reaches available.
+Enter a negative number to represent reductions in population extent.
+The deafault value is +0 km. <br><br>
+
+<h4>Non-native Trout:</h4>
+Densities of non-native trout in the future can be estimated based on historical densities, or you can select a constant future density using the slider bar.  
+Set future densities to zero to simulate non-native eradication.  
+The default value on the slider bar is the non-native density from this population in 2015. 
+You must click "Set a constant density" to enable the slider bar.<br><br>
+
+<h4>Stream Environment:</h4>
+Use the sliders to constrain future conditions for each environmental covariate (water temperature, stream flow, and riparian vegetation) to low, moderate, or high values.<br><br>
+
+Years will be selected from 1984 to 2015 that had covariate values within the quantile limits defined by the sliders.  
+For example, "Temperature" sliders of 0.5 to 1 will select years with temperatures <u>></u> median (50th percentile) among all years from this population.  
+Covariate forecasting is done by sampling with replacement from the selected years.<br><br>
+
+<h4>Environmental Variability:</h4>
+Forecasted covariates can be re-scaled to mimic different levels of environmental variability.  This may be particularly necessary if you select restrictive covariate resampling settings above.  To manipulate future environmental variability, toggle-on the checkbox and move the slider.  If the slider is set to 1, future environmental variability will equal historical variability.  If the slider is set to 1.5, future variability will exceed historical variability by 50%.<br><br>
+
+<h4>Demographic Stochasticity:</h4>
+The magnitude of random variation of population growth rates among years (i.e. standard deviation of normally distributed realized population growth rates from a Ricker model).
+Default values were estimated based on all data from each population individually and expectations for the sub-species overall.
+<br><br>
+<b>Note:</b> Population extinction rates can be very sensitive to changes in demographic stochasticity.<br>
+
+
+
+<hr>
+<h3>Reintroductions/Removals</h3>
+These settings allow you to design future strategies for reintroduction or removal of Lahontan Cutthroat Trout.  
+Enter a negative number to simulate removing fish from donor populations.  
+The reintroduction schedule that you define will start in 2016 and be repeated until the last year in your simulation.
+The simulator uses real reintroduction data from all recorded donor and recipient populations from 1984 to 2015.<br><br>
+
+<b>Example:</b>  Three different reintroduction strategies:<br><br>
+Simulation A) One time introduction of 30 fish.<br>
+Add 30 fish/year for 1 year, followed by... 0 fish/year for 99 years.<br><br>
+
+Simulation B) Add 10 fish/year for three consecutive years.<br>
+Add 10 fish/year for 3 years, followed by... 0 fish/year for 99 years.<br><br>
+
+Simulation C) Add 10 fish every ten years.<br>
+Add 10 fish/year for 1 years, followed by... 0 fish/year for 9 years.<br><br>
+
+<b>Note:</b>  This simulation assumes that introduced fish survive and reproduce at the same rates as resident fish (e.g. no increased mortality due to relocation).  
+Simulating the reintroduction of 10 fish can represent any scenario where 10 introduced fish survive and reproduce, regardless of how many fish were actually released.
+
+
+
+
+<hr>
+<h3>Batch Processing</h3>
+
+<h4>Select multiple populations:</h4>
+Select multiple populations from the list to include in a batch of simulation runs.<br><br>
+
+Populations may be selected in groups by GMU (geographic management unit) or by state.  Populations where no Lahontan cutthroat have ever been observed can be screened out by clicking the button 'Remove "Potential Streams"' (see map).  Conversely, populations where Lahontan cutthroat HAVE been observed can be screened out by clicking the button 'Remove "Lahontan Streams" (see map). This may be useful when batch-simulating reintroduction scenarios.  
+
+<h4>Run Simulations...:</h4>
+The batch of simulation runs will not start until you click this button.  
+This prevents computationally intensive batch runs from auto-updating every time a simulation setting is changed.<br><br>
+
+Batch processing ignores the "Population Extent" setting and the "Environmental Stochasticity" setting.  It uses the default values for each population for these settings. <br><br>
+
+If the slider labeled "Set a constant non-native density" remains at its default value, then batch simulations will use the default value for non-natives in each population.  The default value is the most recent observed density of non-natives in a population.  If the slider is moved away from its default position, all populations in the batch run will use the density defined by the slider.  The slider is ignored if the "Sample from historical densities" option is selected. <br><br>
+
+Confidence intervals represent variation in extinction risk among simulation runs. 
+See "Simulation Settings" below for an explanation of how increasing the "Number of Simulations" and the "Number of MCMC Samples" allows you to better account for uncertainty. <br><br>
+
+Simulation settings for each batch run will be included in the bottom table with results in the "Batch" tab.  The table of results can be copied and pasted directly into Microsoft Excel.<br><br> 
+
+
+
+
+<hr>
+<h3>Simulation Settings</h3>
+
+<h4>Credible Interval:</h4>
+Bayesian version of confidence intervals.  This parameter affects credible intervals for plots and error bounds on estimates of extinction risks.  It does not affect the simulations themselves.  Reducing the credible intervals clarifies some plots.<br><br>
+
+<h4>Number of Simulations:</h4>
+*Larger values improve accuracy but are slower.<br><br>
+
+Each simulation includes one possible covariate time series using the current settings.  
+Running more simulations averages results over many possible future covariate scenarios to better account for uncertainty in forecasted population estimates.<br><br>
+
+<b>Note:</b> Set this value to one to see each simulation separately rather than aggregate statistics.<br><br>
+
+<h4>Number of MCMC Samples:</h4>
+*Larger values improve accuracy but are slower.<br><br>
+
+The full model contains 500,000 MCMC samples.  Each MCMC sample includes a unique combination of likely parameter values from the fitted MPVA model.  Every population simulation that you run (set by "Number of Simulations") includes many MCMC samples (set by "Number of MCMC Samples"). Including more MCMC samples better represents the uncertainty in parameter estimates from the underlying model.  <br><br>
+
+Extinction probabilities and their credible intervals are calculated using the following steps:<br>
+1.  Determine if the population simulation from each MCMC sample went extinct (1 or 0 for each MCMC sample).
+2.  Calculate the mean of those values to represent the extinction probability for one full simulation run.  
+3.  Calculate credible intervals based on variance in extinction probabilities among full simulation runs.<br><br>
+
+Credible intervals can be adjusted using the "Credible Interval" setting.  The number of full simulation runs can be adjusted using the "Number of Simulations" setting.<br><br>
+
+
+
+
+
+<br><br>
+</div>
+</body>
+</html>

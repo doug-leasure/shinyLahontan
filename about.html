@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>About</title>
+</head>
+
+<body>
+
+<div style="font-size:120%">
+
+<h3>Project Overview</h3>
+
+The <b>Lahontan Cutthroat Trout Population Simulator</b> forecasts population dynamics and evaluates extinction risks under different management and climate scenarios.  The app is powered by a Bayesian MPVA model (Multi-Population Viability Analysis) that was developed as part of NASA's Ecological Forecasting Program.
+Lahontan cutthroat trout (<i>Oncorhynchus clarkii henshawi</i>) is a federally threatened subspecies of cutthroat trout with dozens of imperiled populations scattered among isolated headwater streams draining into the Great Basin Desert.<br><br>
+
+The Lahontan MPVA model is driven by a database that was collected over several decades by dedicated people from state and federal agencies, academic institutions, non-profit organizations, and others. The database includes fish counts from over 6,000 electrofishing surveys from 1985 to 2015 at almost 4,000 sites in 155 distinct populations.<br><br>
+
+Stream conditions for each population were measured annually from 1985 to 2015 using remote sensing, geospatial data, and field surveys to estimate:<br>
+stream temperature, stream flow, riparian vegetation condition, and non-native trout densities.<br><br>
+
+This simulator allows you to forecast population dynamics for each population based on its historical environmental conditions or variations on them.<br><br>
+
+<h3>Funding</h3> 
+National Aeronautics and Space Administration (NASA)<br>
+Bureau of Land Management<br>
+U.S. Fish and Wildlife Service<br>
+National Fish and Wildlife Foundation<br><br>
+
+<h3>Data Contributors</h3>
+Trout Unlimited<br>
+Aquatic Sciences Laboratory (USGS), Corvallis, Oregon<br>
+Peacock Lab, University of Nevada-Reno<br>
+Nevada Department of Wildlife<br>
+Oregon Department of Fish and Wildlife<br>
+California Department of Fish and Wildlife<br>
+U.S. Fish and Wildlife Service<br><br>
+
+NASA's North American Land Data Assimilation System (NLDAS), VIC model<br>
+US Forest Service NorWest Project<br>
+NASA's Landsat Program<br>
+Google Earth Engine<br><br>
+
+<h3>Collaborators</h3> 
+River Basin Center, Odum School of Ecology, University of Georgia<br>
+Trout Unlimited, Boise, Idaho<br>
+Aquatic Sciences Laboratory (USGS), Corvallis, Oregon<br>
+Peacock Lab, University of Nevada-Reno<br>
+Rocky Mountain Research Station (USFS), Boise, Idaho<br>
+Computational Ecology Laboratory, University of Montana<br><br>
+
+<h3>Contact</h3>
+<b>Doug Leasure </b><br>
+Post-doctoral Research Associate<br>
+River Basin Center<br>
+University of Georgia<br>
+email: <a href="mailto:dleasure@uga.edu">dleasure@uga.edu</a>
+<br><br><br><br>
+
+<hr>
+<h3>Update History</h3>
+
+<b>Version 1.0  [25 April 2017]</b><br>
+Original release.<br><br>
+<br><br>
+
+<b>Version 1.1  [12 Oct 2017]</b><br>
+Added batch processing capability to the Shiny app.<br><br>
+<br><br>
+
+<b>Version 2.0  [7 November 2017]</b><br>
+Includes a data update from 18 May 2017:<br>
+- Updated Lahontan cutthroat trout (LCT) data to include 6641 total observations from 155 populations.<br>
+- Updated non-native trout data<br>
+- Updated LCT reintroduction data<br>
+- Updated site drainage areas<br>
+<br>
+Includes a data update from 15 June 2017:<br>
+- Average elevation for each population<br>
+<br>
+Model updates:<br>
+- Estimated the effect NDVI separately for high and low elevation populations (i.e. mean elevation above or below 2000m)<br>
+- Environmental stochasticity modeled slightly different (Hierarchical half-Cauchy rather than Gamma distribution).<br>
+- Sampling model restructured to estimate site abundances.<br>
+- Detection probabilities modeled as a deterministic function rather than using Beta regressions with residual observation error.<br>
+- MPVA model fit to updated dataset.<br>
+<br><br>
+
+
+
+
+
+
+
+<br><br>
+
+</div>
+</body>
+</html>

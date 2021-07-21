@@ -1,0 +1,233 @@
+MetaPopID,MetaPop_Name,PopID,PopulationName,PopNameShort,PopType,COMID,Pop_Extent_km
+,,323,Ackler,Ackler,OtherPop,10778218,11.16
+,,64,Andorno,Andorno,ConsPop,11852731,3.63
+,,264,Bartlett,Bartlett,OtherPop,11277576,6.97
+,,65,Battle_NF,NF Battle,ConsPop,11281838,6.66
+,,150,Big&Big_NF,Big,OtherPop,11277186,10.81
+,,320,Big&CorralCyn,Big & Corral Cyn,OtherPop,11177629,16.37
+,,122,Birch,Birch,OtherPop,11230154,4.94
+,,151,Boone,Boone,OtherPop,11175527,8.75
+,,312,Bottle,Bottle,OtherPop,11851685,15.21
+,,152,BoxCanyon_aka_Stoddard,Stoddard,OtherPop,10751239,5.67
+,,153,Brown,Brown,OtherPop,946040189,8.1
+,,173,BuffaloCanyon,Buffalo Cyn,OtherPop,11852703,8.33
+,,217,CA_ByDay,By Day,ConsPop,8915047,5.87
+,,295,CA_CharityValley,Charity Valley,OtherPop,8922813,12.78
+,,270,CA_Deep,Deep,OtherPop,10744306,42.57
+,,272,CA_Deer,Deer,OtherPop,8934040,5.88
+,,271,CA_Desert,Desert,OtherPop,10742558,34.16
+,,232,CA_Dog,Dog,OtherPop,8930230,16.36
+,,332,CA_Dunderberg&Dog,Dunder-Dog (CA),OtherPop,8915417,20.37
+,,274,CA_Eagle,Eagle,OtherPop,8915311,9.22
+,,228,CA_EastForkCarson,EF Carson,ConsPop,8924939,13.99
+,,296,CA_EastForkCarson_up1,EF Carson (up1),ConsPop,8925025,1.08
+,,297,CA_EastForkCarson_up2,EF Carson (up2),ConsPop,8925027,2.39
+,,298,CA_EastForkCarsonReconnect,EF Carson (recon),Reconnect,8924901,3.71
+,,334,CA_Forestdale,Forestdale (CA),OtherPop,8922827,4.58
+,,227,CA_GoldenCanyon,Golden Cyn,ConsPop,8924957,2.4
+,,330,CA_Horse,Horse (CA),OtherPop,8915443,4.51
+,,259,CA_Horsethief,Horsethief,OtherPop,8922479,4.7
+,,233,CA_Hunter,Hunter,OtherPop,8935786,7.87
+,,234,CA_Independence,Independence,ConsPop,8933584,2.19
+,,299,CA_JeffDavis,Jeff Davis,OtherPop,8922965,6.14
+,,216,CA_Mill_dwn,Mill (dwn),ConsPop,10744290,3.24
+,,215,CA_Mill_up,Mill (up),ConsPop,10744394,6.81
+,,301,CA_Mountaineer,Mountaineer,OtherPop,8922675,4.84
+,,302,CA_Mountaineer_E_up,Mountaineer (E; up),OtherPop,8922805,5.04
+,,303,CA_Mountaineer_W_up,Mountaineer (W; up),OtherPop,8922751,2.66
+,,235,CA_Murphy,Murphy,ConsPop,8915845,11.6
+,,226,CA_MurrayCanyon,Murray Cyn,ConsPop,8924913,3.23
+,,275,CA_Paiute_CorralValley,Corral Valley,OtherPop,8924925,4.96
+,,276,CA_Paiute_CoyoteValley,Coyote Valley,OtherPop,8925269,5.42
+,,277,CA_Paiute_FlyValley,Fly Valley,OtherPop,8925271,1.63
+,,278,CA_Paiute_FourMileCanyon,Four Mile Cyn,OtherPop,8925011,2.05
+,,279,CA_Paiute_Historic,Historic,OtherPop,8923315,14.58
+,,280,CA_Paiute_UpSilverKing,Silver King (up),OtherPop,8924967,8.13
+,,219,CA_PoisonFlat,Poison Flat,ConsPop,8923305,3.35
+,,146,CA_Pole,Pole (CA),ConsPop,8934374,2.78
+,,251,CA_RaymondMeadows,Raymond Meadows,OtherPop,8923139,3.72
+,,331,CA_Robinson,Robinson (CA),OtherPop,8915429,10.96
+,,237,CA_SageHen,Sagehen,OtherPop,8933518,12.97
+,,304,CA_Silver_dwn,Silver (dwn),ConsPop,10744454,2.09
+,,261,CA_Silver_NWTahoe,Silver (Tahoe),OtherPop,8934042,3.78
+,,213,CA_Silver_up,Silver (up),ConsPop,10744454,5.72
+,,212,CA_Slinkard,Slinkard,ConsPop,10742574,9.32
+,,311,CA_Slinkard_dwn,Slinkard (dwn),ConsPop,10742468,3.43
+,,305,CA_UpperTruckee_dwn,U Truckee (dwn),ConsPop,8943969,3.84
+,,240,CA_UpperTruckee_up,Upper Truckee,ConsPop,8943969,8.07
+,,241,CA_WebberLake,Webber,OtherPop,8933208,23.61
+,,260,CA_Willow,Willow (CA),OtherPop,8922467,8.62
+,,309,CA_Willow_up,Willow (CA; up),OtherPop,8922399,17.38
+,,214,CA_Wolf_dwn,Wolf (CA; dwn),ConsPop,10744472,3.23
+,,310,CA_Wolf_up,Wolf (CA; up),ConsPop,10744472,1.9
+,,161,Cabin&DJ&Lye&Martin&Deep&RoundCorral&Alkali,Martin,OtherPop,11135742,91.56
+,,333,Cabin_up,Cabin (up),OtherPop,11137360,2.7
+,,158,Canyon&Canyon_SF,Canyon,OtherPop,11849931,8.15
+,,24,Carville,Carville,ConsPop,10752865,2.74
+,,160,Cold_ColdNF,Cold (HRD),OtherPop,10786094,11.83
+,,69,Cold_NF_up,NF Cold (HRD),ConsPop,10787086,3.91
+,,82,Colman_up,Colman,ConsPop,11279248,7.68
+,,110,Conrad_up,Conrad,OtherPop,10786424,2.26
+,,128,Cottonwood_RRD,Cottonwood (RRD),OtherPop,11178273,8.29
+,,113,Cottonwood_SFHRD,Cottonwood (SFHRD),OtherPop,10752657,3.04
+,,258,Cottonwood_WalkerLake,Cottonwood (Walker Lk),OtherPop,10734408,8.84
+,,70,CraneCanyon,Crane Cyn,ConsPop,11180055,1.56
+,,281,CraneCanyon_dwn,Crane Cyn (dwn),OtherPop,11180055,4.02
+,,71,Crowley,Crowley,ConsPop,11849873,9.54
+,,327,Currant_up,Currant up,OtherPop,10772152,3.63
+,,25,Dixie,Dixie,ConsPop,10752727,11.07
+,,266,Donnelly,Donnelly,OtherPop,11280748,2.52
+,,107,Dorsey,Dorsey,OtherPop,10763639,8.55
+,,57,Draw_AboveBarrier,Draw (up),OtherPop,10771864,3.12
+,,184,EchoCanyon_dwn,Echo,OtherPop,10751237,1.78
+,,282,EchoCanyon_up,Echo Canyon (up),OtherPop,10750297,2.85
+,,175,Edwards,Edwards,OtherPop,10721968,11.38
+,,72,Eightmile,Eightmile,ConsPop,11849679,6.5
+,,73,FallsCanyon,Falls Cyn,ConsPop,11852685,3.05
+,,9,Frazer,Frazer,ConsPop,11187611,6.1
+,,10,Gance_RdCny_Warm,Gance,ConsPop,10762723,11.17
+,,185,Gardner,Gardner,OtherPop,10785738,2.37
+,,187,Greys,Greys (dwn),OtherPop,10777980,1.24
+,,186,Greys_up,Greys (up),OtherPop,10777980,2.09
+,,284,Hall&Greys_dwn,Hall & Greys,OtherPop,10777752,5.16
+,,262,Happy,Happy,OtherPop,11282166,3.4
+,,188,HorseCanyon,Horse Cyn,OtherPop,11850315,6.02
+,,189,House,House,OtherPop,11847229,8.65
+,,11,Indian,Indian,OtherPop,11136124,9.31
+,,62,Indian_SF,SF Indian,ConsPop,11135918,7.89
+,,268,Jackson,Jackson,OtherPop,11282564,11.37
+,,112,Kleckner_dwn&Welch,Kleckner (dwn),OtherPop,10750383,14.96
+,,190,Kleckner_up,Kleckner (up),OtherPop,10751243,2.59
+,,191,KlondikeCan&Quinn_EF&Laca,EF Quinn,OtherPop,11850987,50.81
+,,321,LamoilleCyn,Lamoille Cyn,OtherPop,10786444,12.55
+,,111,Lee,Lee,OtherPop,10750373,7.56
+,,176,Lewis_RRD,Lewis,OtherPop,11174273,5.1
+,,169,LineCanyon,Line Cyn,ConsPop,11845085,4.35
+,,192,LittleCottonwood,Little Cottonwood,OtherPop,11136378,2.29
+,,138,LittleHumboldt_NF,NF L Humboldt,OtherPop,11137378,63.88
+,,103,Mahala&Jim,Mahala,OtherPop,10764531,49.22
+,,61,Mahogany&SummerCamp&Pole,Mahogany,ConsPop,11275882,25.48
+,,269,MarySloan,Mary Sloan,OtherPop,11282230,2.07
+,,194,McConnell,McConnell,OtherPop,11850295,4.97
+,,114,Mitchell&Mitchell_NF,Mitchell,OtherPop,10753183,12.05
+,,12,MohawkCanyon,Mohawk,ConsPop,11178817,4.85
+,,329,MRBC_up,MRBC up,ConsPop,10771756,3.5
+,,135,Mullinex,Mullinex,OtherPop,11136136,6.76
+,,265,Paiute,Paiute,OtherPop,11282316,2.93
+,,47,Pearl,Pearl,ConsPop,10753017,8.74
+,,168,PeteHanson,Pete Hanson,OtherPop,11230228,6.12
+,,104,Pie&Dorsey_low&Gance_low,Pie,OtherPop,10762985,67.37
+,,87,Pole_QRD,Pole (QRD),OtherPop,11847403,9.32
+,,195,Rabbit,Rabbit,OtherPop,10787142,3.74
+,,119,Rattlesnake_SFHRD,Rattlesnake (SFHRD),OtherPop,10750619,9.15
+,,92,Rebel,Rebel,OtherPop,11851159,8.2
+,,196,RedMtn,Red Mtn,OtherPop,8952840,3.49
+,,197,Rock_CrumCanyon,Rock (Crum Cyn),OtherPop,11209842,4.95
+,,90,Rock_dwn_QRD,Rock (QRD),OtherPop,11848357,7.02
+,,198,Rock_EdnaMtn,Rock (Edna Mtn),OtherPop,11154921,6.71
+,,164,SanJuan&SanJuan_SF,San Juan,OtherPop,11177741,16.19
+,,63,SFLH_Pole_Snowstorm,SF L Humboldt,ConsPop,11140052,55.03
+,,179,Silver_NF,NF Silver,OtherPop,11175677,8.61
+,,178,Singas,Singas,OtherPop,11138010,3.68
+,,199,Snow&Chicken&Leonard,Snow Chicken Leonard,OtherPop,11277382,22.59
+,,80,Snow_SummitLake,Snow (Summit Lk),ConsPop,11275924,3.32
+,,200,Sonoma,Sonoma,OtherPop,11154965,3.46
+,,201,Star,Star,OtherPop,10712034,2.1
+,,202,Stephens,Stephens,OtherPop,10787008,7.24
+,,263,Susie,Susie,OtherPop,10778328,10.91
+,,322,Tabor,Tabor,OtherPop,10776768,19.72
+,,180,Thorpe_LamValley,Thorpe,OtherPop,10787096,10.11
+,,6,Threemile,Threemile,ConsPop,11849811,5.8
+,,238,Thunderbolt,Thunderbolt,ConsPop,11311437,2.92
+,,16,Tierney,Tierney,ConsPop,11177775,13.07
+,,124,Washington,Washington,OtherPop,11178269,8.53
+,,182,WashONeal,Wash O'Neal,OtherPop,946040048,7.58
+,,59,Whitehorse_OR,Whitehorse,ConsPop,24074445,66.05
+,,307,Whitehorse_OR_E_up,Whitehorse (E up),ConsPop,24075611,4.55
+,,308,Whitehorse_OR_W_up,Whitehorse (W up),ConsPop,24074793,7.81
+,,46,Willow&Lewis&Nelson,Willow Lewis Nelson,ConsPop,11189901,28.61
+,,294,Willow_DesatoyaMtns,Willow (Desatoya Mtns),OtherPop,10722222,5.75
+,,306,Willow_OR_dwn,Willow (OR; down),ConsPop,24074407,11.09
+,,58,Willow_OR_up,Willow (OR),ConsPop,24074673,23.63
+,,207,Willow_QRD,Willow (QRD),OtherPop,11850163,4.38
+,,256,Willow_QRD_SF,SF Willow (QRD),OtherPop,11850157,9.82
+,,208,WilsonCanyon,Wilson,OtherPop,10714476,2.38
+,,17,WMR&CmpDraw&Gaws,West Marys,ConsPop,10771746,5.82
+2,GrMtnToyn_metapop,170,GreenMtn_Main_SF,SF Green Mtn,OtherPop,10752933,14.48
+2,GrMtnToyn_metapop,75,GreenMtn_NF,NF Green Mtn,ConsPop,10752889,1.84
+2,GrMtnToyn_metapop,283,GrMtnToynReconnect,Green Mtn (recon),Reconnect,10752935,3.57
+2,GrMtnToyn_metapop,181,Toyn,Toyn,OtherPop,10752969,8.84
+3,Maggie_metapop,2,Coyote,Coyote,ConsPop,10774494,13.08
+3,Maggie_metapop,3,LittleJack,Little Jack,ConsPop,10774530,4.92
+3,Maggie_metapop,77,LoneMtn,Lone Mtn,ConsPop,10774102,1.59
+3,Maggie_metapop,4,Maggie,Beaver,ConsPop,10774222,29.73
+3,Maggie_metapop,286,MaggieReconnect,Maggie (recon),Reconnect,10781856,101.01
+4,Marys_metapop,174,Currant,Currant,OtherPop,10772248,17
+4,Marys_metapop,7,EMR&MRBC&CC&QC&Cutt&Short&WillBas,Upper Marys,ConsPop,10772018,42.91
+4,Marys_metapop,45,Hanks&Conners,Hanks,ConsPop,10776494,25.52
+4,Marys_metapop,287,MarysReconnect,Marys (recon),Reconnect,10776536,88.07
+4,Marys_metapop,15,T_Creek&Draw,T Creek,ConsPop,10772026,17.79
+4,Marys_metapop,53,Wildcat,Wildcat,ConsPop,10771886,6.37
+5,McDermitt_metapop,319,Cottonwood&Indian_QRD,Cotton-Indian,OtherPop,11846131,36.74
+5,McDermitt_metapop,162,McDermitt_dwn&Sage_dwn,Sage (McDermitt),OtherPop,11848857,29.21
+5,McDermitt_metapop,163,McDermitt_NF&McD_up,NF McDermitt,OtherPop,11844935,17.23
+5,McDermitt_metapop,288,McDermittReconnect,McDermitt (recon),Reconnect,11846189,7.88
+5,McDermitt_metapop,88,Riser,Riser,OtherPop,11846947,22.45
+5,McDermitt_metapop,79,Sage_up_QRD,Sage (QRD; up),ConsPop,11846951,19.42
+6,NFHumFore_metapop,102,California,Foreman (dwn),OtherPop,10762153,10.39
+6,NFHumFore_metapop,8,Foreman,Foreman (up),ConsPop,10761883,6.21
+6,NFHumFore_metapop,60,Humboldt_NF&ColeCyn,NF Humboldt,ConsPop,10761789,27.06
+6,NFHumFore_metapop,285,HumboldtReconnect,Humboldt (recon),Reconnect,10762341,48.83
+6,NFHumFore_metapop,293,Winters,Winters,OtherPop,10761957,10.81
+7,RockTJ_metapop,51,Rock_RCD,Rock (RCD),ConsPop,11187287,11.38
+7,RockTJ_metapop,290,RockTJReconnect,Rock Toe Jam (recon),Reconnect,11187473,41.26
+7,RockTJ_metapop,48,ToeJam,Toe Jam,ConsPop,11187467,17.08
+8,SmithsGene_metapop,66,Gennette,Gennette,ConsPop,10752691,4.85
+8,SmithsGene_metapop,49,Smith_Main_NF_MF_SF,Smith,ConsPop,10752695,12.06
+8,SmithsGene_metapop,291,SmithGenReconnect,Smith Gennette (recon),Reconnect,10752693,0.91
+9,RoughBodie_metapop,257,CA_Bodie,Bodie,OtherPop,8916337,20.02
+9,RoughBodie_metapop,273,CA_RoBoReconnect,RoBo (recon),Reconnect,8916253,21.95
+9,RoughBodie_metapop,218,CA_Rough,Rough,OtherPop,8914979,15.11
+10,LittleTruckee_metapop,231,CA_ColdStream,Cold (CA),OtherPop,8933458,5.19
+10,LittleTruckee_metapop,300,CA_LittleTruckee,L Truckee,OtherPop,8933152,18.03
+10,LittleTruckee_metapop,236,CA_Perazzo,Perrazzo,OtherPop,8933374,7.71
+11,McCutcheon_metapop,167,McCutcheon_dwn,McCutcheon (dwn),OtherPop,10752783,2.58
+11,McCutcheon_metapop,120,McCutcheon_up,McCutcheon (up),OtherPop,10752783,3.92
+12,TroutEastHumboldt_metapop,255,Trout_EastHumboldt,Trout (E Humboldt),OtherPop,10777652,1.41
+12,TroutEastHumboldt_metapop,292,Trout_EastHumboldt_up,Trout (E Humboldt; up),OtherPop,10777764,3.73
+13,ConradTalbot_metapop,171,Conrad_dwn&Talbot_dwn,Conrad Talbot,OtherPop,10786302,7.43
+13,ConradTalbot_metapop,254,Talbot_up,Talbot (up),OtherPop,10786402,5.18
+14,Washburn_metapop,313,Washburn_dwn,Washburn dwn,ConsPop,11851031,5.84
+14,Washburn_metapop,81,Washburn_up,Washburn up,ConsPop,11849195,8.86
+15,Sherman_metapop,109,Sherman,Sherman,OtherPop,10786998,3.53
+15,Sherman_metapop,108,Sherman_EF,EF Sherman,OtherPop,10784378,4.05
+15,Sherman_metapop,335,ShermanReconnect,Sherman (recon),Reconnect,10784434,1.26
+16,AbelStoneHouse_metapop,5,Abel,Abel,ConsPop,11138096,7.32
+16,AbelStoneHouse_metapop,318,Abel&SHReconnect,Abel-SH (recon),Reconnect,11138116,0.09
+16,AbelStoneHouse_metapop,203,StoneHouse,StoneHouse,OtherPop,11138100,5.46
+17,AllesDeering_metapop,324,Alles,Alles,OtherPop,10784080,7.54
+17,AllesDeering_metapop,326,Alles&DeeringReconnect,Alles-Deering (recon),Reconnect,10784030,0.33
+17,AllesDeering_metapop,325,Deering,Deering,OtherPop,10784086,9.41
+18,BoulderEFWF_metapop,156,Boulder_1st&2nd_dwn&WF,WF Boulder,OtherPop,10784476,13.21
+18,BoulderEFWF_metapop,21,Boulder_2nd_up,2nd Boulder,ConsPop,10784948,0.67
+18,BoulderEFWF_metapop,74,Boulder_4th,4th Boulder,ConsPop,10784362,4.25
+18,BoulderEFWF_metapop,172,Boulder_EF&Boulder_3rd,3rd Boulder,OtherPop,10786972,8.69
+18,BoulderEFWF_metapop,328,BoulderEFWFReconnect,Boulder EFWF (recon),Reconnect,10786974,1.84
+19,FurlongMSLCR_metapop,67,Furlong_N,N Furlong,ConsPop,10751249,5.78
+19,FurlongMSLCR_metapop,116,Mahogany&Segunda&LongCanyon,Long Cyn,OtherPop,10750409,27.82
+20,Reese_metapop,159,Clear_RRD,Clear,OtherPop,11178835,25.42
+20,Reese_metapop,210,Illinois,Illinois,OtherPop,11178969,7.08
+20,Reese_metapop,155,Reese&Sawmills,Upper Reese,OtherPop,11179135,34.45
+20,Reese_metapop,289,ReeseReconnect,Reese (recon),Reconnect,11178807,24.23
+20,Reese_metapop,125,Stewart&Stewart_NF&MF,Stewart,OtherPop,11178943,11.77
+21,Flat_FlatSF_metapop,89,Flat,Flat,OtherPop,11850063,9.11
+21,Flat_FlatSF_metapop,336,Flat_SFReconnect,SF Flat,Reconnect,11850117,4.8
+22,Kings_metapop,314,Kings&ColdSpgs,Kings-Cold Spgs,OtherPop,11847049,29.27
+22,Kings_metapop,317,KingsReconnect,Kings (recon),Reconnect,11847187,14.13
+22,Kings_metapop,315,LogCabin&Raster,Log Cabin-Raster,OtherPop,11847111,16.98
+22,Kings_metapop,316,Rodeo,Rodeo,OtherPop,11847175,5.68
+23,Marysville_metapop,78,Marysville,Marysville,ConsPop,11178305,1.26
+23,Marysville_metapop,193,Marysville_nonconpop,Marysville (dwn),OtherPop,11177809,3.9
+23,Marysville_metapop,253,Marysville_nonconpop_up,Marysville (up),OtherPop,11177809,7.39
+24,Pratt_metapop,177,Pratt,Pratt,OtherPop,10761763,6.5
+24,Pratt_metapop,337,PrattReconnect,Pratt (recon),Reconnect,10761741,7.02
