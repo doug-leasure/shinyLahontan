@@ -27,7 +27,7 @@ fluidPage(
         sliderInput('const.bkt', NULL, min=0, max=2000, step=10, value=0, width='100%', post=' per km'),
         br(),
         
-        sliderInput('demsto', 'Environmental stochasticity:', value=NA, min=0.25, max=2.0, round=2),
+        sliderInput('demsto', 'Environmental stochasticity:', value=1, min=0.25, max=2.0, round=2),
         br(),
         
         strong('Stream Habitat:'),br(),
